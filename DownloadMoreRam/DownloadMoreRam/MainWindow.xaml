@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Margin="209,250,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label" Content="Welcome To Download More Ram!" HorizontalAlignment="Left" Margin="150,116,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
