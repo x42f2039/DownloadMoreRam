@@ -5,6 +5,7 @@
         TextBox1.Visible = False
         Me.Visible = False
         Form2.ShowDialog()
+        Me.Close()
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
